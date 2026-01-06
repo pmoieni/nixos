@@ -108,7 +108,7 @@
             }
             home-manager.nixosModules.default
             {
-              system.gui.enable = true;
+              system.gui.enable = false;
             }
           ];
         };
