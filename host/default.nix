@@ -55,6 +55,7 @@
     openssl
     lshw
     psmisc
+    stow
   ];
 
   documentation = {
