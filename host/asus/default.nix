@@ -12,7 +12,9 @@
     ./users.nix
     ./virtualisation.nix
     ./xdg.nix
+    ./stylix.nix
   ];
 
+  system.gui.enable = true;
   system.stateVersion = "25.05";
 }

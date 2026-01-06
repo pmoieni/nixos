@@ -3,10 +3,7 @@
     nixpkgs.url = "github:NixOS/nixpkgs/nixos-25.11";
     nixos-wsl.url = "github:nix-community/NixOS-WSL/main";
 
-    home-manager = {
-      url = "github:nix-community/home-manager/release-25.11";
-      inputs.nixpkgs.follows = "nixpkgs";
-    };
+    home-manager.url = "github:pmoieni/home-manager";
 
     treefmt-nix = {
       url = "github:numtide/treefmt-nix";
@@ -15,6 +12,16 @@
 
     stylix = {
       url = "github:nix-community/stylix/release-25.11";
+      inputs.nixpkgs.follows = "nixpkgs";
+    };
+
+    quickshell = {
+      url = "github:outfoxxed/quickshell";
+      inputs.nixpkgs.follows = "nixpkgs";
+    };
+
+    noctalia = {
+      url = "github:noctalia-dev/noctalia-shell";
       inputs.nixpkgs.follows = "nixpkgs";
     };
   };
@@ -27,6 +34,7 @@
       home-manager,
       treefmt-nix,
       stylix,
+      ...
     }:
     let
       systems = [
@@ -66,8 +74,17 @@
           modules = [
             ./host
             ./host/asus
-
             stylix.nixosModules.stylix
+            home-manager.inputs.home-manager.nixosModules.home-manager
+            {
+              home-manager.extraSpecialArgs = {
+                isNixOS = true;
+              };
+            }
+            home-manager.nixosModules.default
+            {
+              system.gui.enable = true;
+            }
           ];
         };
 
@@ -76,8 +93,17 @@
           modules = [
             ./host/common
             ./host/wsl
-
             nixos-wsl.nixosModules.default
+            home-manager.inputs.home-manager.nixosModules.home-manager
+            {
+              home-manager.extraSpecialArgs = {
+                isNixOS = true;
+              };
+            }
+            home-manager.nixosModules.default
+            {
+              system.gui.enable = true;
+            }
           ];
         };
       };
