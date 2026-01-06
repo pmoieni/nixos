@@ -35,7 +35,7 @@
       treefmt-nix,
       stylix,
       ...
-    }:
+    }@inputs:
     let
       systems = [
         "x86_64-linux"
@@ -71,6 +71,9 @@
       nixosConfigurations = {
         asus = nixpkgs.lib.nixosSystem {
           system = "x86_64-linux";
+          specialArgs = {
+            inherit inputs;
+          };
           modules = [
             ./host
             ./host/asus
@@ -90,8 +93,11 @@
 
         wsl = nixpkgs.lib.nixosSystem {
           system = "x86_64-linux";
+          specialArgs = {
+            inherit inputs;
+          };
           modules = [
-            ./host/common
+            ./host
             ./host/wsl
             nixos-wsl.nixosModules.default
             home-manager.inputs.home-manager.nixosModules.home-manager

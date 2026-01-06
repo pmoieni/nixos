@@ -12,7 +12,6 @@
     ./users.nix
     ./virtualisation.nix
     ./xdg.nix
-    ./stylix.nix
   ];
 
   system.gui.enable = true;
