@@ -29,14 +29,8 @@
   environment.systemPackages = with pkgs; [
     man-pages
     man-pages-posix
-    btop
     vim
-    neovim
-    fish
-    tokei
     podman-compose
-    gh
-    ripgrep
     wget
     tree
     htop
@@ -50,12 +44,9 @@
     fd
     jq
     fzf
-    git
-    subversion
     openssl
     lshw
     psmisc
-    stow
   ];
 
   documentation = {
