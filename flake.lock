@@ -305,11 +305,11 @@
         "treefmt-nix": "treefmt-nix"
       },
       "locked": {
-        "lastModified": 1767804569,
-        "narHash": "sha256-SArMn76WjfiQcwA7Qhir9TIkpIY0MANC4oWZz4MLKBo=",
+        "lastModified": 1767806420,
+        "narHash": "sha256-ZXDzfp+snKYGARGSMhALKRg+Wh98buzBF0AkC1amzng=",
         "owner": "pmoieni",
         "repo": "home-manager",
-        "rev": "25643775cf52ae7c4178ea8156cffdfd8c604527",
+        "rev": "459f7928a618dda749fb87d77d15a6000132aa43",
         "type": "github"
       },
       "original": {
@@ -415,11 +415,11 @@
         ]
       },
       "locked": {
-        "lastModified": 1767803238,
-        "narHash": "sha256-UekgdJMtRWFzidrJ2NbQtRX+AodrLzicPznfTZHb4fk=",
+        "lastModified": 1767806080,
+        "narHash": "sha256-tnuVM+L4SQ1hlwgOew9ScsNVwo78NF49lAiOUMCXdxw=",
         "owner": "noctalia-dev",
         "repo": "noctalia-shell",
-        "rev": "016320846ff0220d818df2b2f68e0e0a4cc923d1",
+        "rev": "53124e35f566761f3da5a415d9f8058e96ed18fd",
         "type": "github"
       },
       "original": {
