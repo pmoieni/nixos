@@ -46,6 +46,7 @@
     fzf
     openssl
     lshw
+    usbutils
     psmisc
   ];
 
