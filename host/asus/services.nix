@@ -4,6 +4,10 @@
 
   services.upower.enable = true;
 
+  services.udisks2.enable = true;
+  services.tumbler.enable = true;
+  services.gvfs.enable = true;
+
   services.printing = {
     enable = true;
     drivers = [ pkgs.hplipWithPlugin ];
