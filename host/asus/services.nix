@@ -39,7 +39,7 @@
   services.power-profiles-daemon.enable = false;
   # tlp and auto-cpufreq shouldn't be enabled simultaneously
   services.tlp = {
-    enable = false;
+    enable = true;
     settings = {
       START_CHARGE_THRESH_BAT0 = 0;
       STOP_CHARGE_THRESH_BAT0 = 80;
@@ -48,7 +48,7 @@
     };
   };
   services.auto-cpufreq = {
-    enable = true;
+    enable = false;
     settings = {
       battery = {
         governor = "powersave";
