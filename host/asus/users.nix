@@ -16,18 +16,14 @@
       "podman"
     ];
     packages = with pkgs; [
-      alacritty
       obsidian
       audacity
       telegram-desktop
       blender
-      brave
       obs-studio
       zed-editor
-      shotwell
       anydesk
       vesktop
-      evince
     ];
   };
 }

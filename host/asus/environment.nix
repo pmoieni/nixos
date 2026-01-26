@@ -4,9 +4,13 @@
     (with pkgs; [
       # battery charge limit script
       # chargeUpto
+      brave
+      shotwell
+      evince
+      alacritty
       wev
+      xfce.thunar
       file-roller
-      kdePackages.dolphin
       gparted
       ffmpeg-full
       mpv
