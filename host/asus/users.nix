@@ -24,6 +24,7 @@
       zed-editor
       anydesk
       vesktop
+      v2rayn
     ];
   };
 }
