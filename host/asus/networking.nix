@@ -1,7 +1,7 @@
 {
   networking.hostName = "nixos";
   networking.wireless.iwd = {
-    enable = false;
+    enable = true;
     settings = {
       Settings = {
         AutoConnect = true;
