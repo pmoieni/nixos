@@ -305,11 +305,11 @@
         "treefmt-nix": "treefmt-nix"
       },
       "locked": {
-        "lastModified": 1770028168,
-        "narHash": "sha256-8yR524gvUOkeUuepecmKOgB2ePR4WNAfYcD4JFvcmOc=",
+        "lastModified": 1770028351,
+        "narHash": "sha256-BEGHaOOfMli/hoDxqGt8LvlM8ie670dawYrcWVm5pPo=",
         "owner": "pmoieni",
         "repo": "home-manager",
-        "rev": "bea0d5c01e2935158386932f4f9d596a445b1aac",
+        "rev": "9bf71d487b54a98c9d125f379a37c7e41b86d0a8",
         "type": "github"
       },
       "original": {
