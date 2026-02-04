@@ -25,6 +25,7 @@
       anydesk
       vesktop
       v2rayn
+      v2raya
     ];
   };
 }
