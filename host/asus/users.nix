@@ -26,7 +26,6 @@
       vesktop
       v2rayn
       protonvpn-gui
-      dbeaver-bin
     ];
   };
 }
