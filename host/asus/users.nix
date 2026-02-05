@@ -26,6 +26,7 @@
       vesktop
       v2rayn
       protonvpn-gui
+      beekeeper-studio
     ];
   };
 }
