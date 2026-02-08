@@ -26,6 +26,8 @@
       vesktop
       v2rayn
       protonvpn-gui
+      sirikali
+      gocryptfs
     ];
   };
 }
