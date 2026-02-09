@@ -28,6 +28,7 @@
       protonvpn-gui
       sirikali
       gocryptfs
+      pcsx2
     ];
   };
 }
