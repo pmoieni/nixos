@@ -22,6 +22,8 @@
       blender
       obs-studio
       zed-editor
+      jetbrains.idea
+      jdk # for intellij
       anydesk
       vesktop
       v2rayn
