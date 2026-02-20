@@ -21,6 +21,7 @@
       xwayland-satellite
       playerctl
       gpu-screen-recorder
+      gdu
     ])
     ++ ([
       inputs.noctalia.packages.${pkgs.stdenv.hostPlatform.system}.default
