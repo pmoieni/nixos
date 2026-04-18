@@ -1,5 +1,6 @@
 {
   pkgs,
+  inputs,
   ...
 }:
 {
@@ -15,21 +16,25 @@
       "wireshark"
       "podman"
     ];
-    packages = with pkgs; [
-      obsidian
-      audacity
-      telegram-desktop
-      blender
-      obs-studio
-      zed-editor
-      jetbrains.idea
-      anydesk
-      vesktop
-      v2rayn
-      protonvpn-gui
-      sirikali
-      gocryptfs
-      pcsx2
-    ];
+    packages =
+      (with pkgs; [
+        obsidian
+        audacity
+        telegram-desktop
+        blender
+        obs-studio
+        zed-editor
+        jetbrains.idea
+        anydesk
+        vesktop
+        v2rayn
+        protonvpn-gui
+        sirikali
+        gocryptfs
+        pcsx2
+      ])
+      ++ ([
+        inputs.zen-browser.packages.${pkgs.stdenv.hostPlatform.system}.default
+      ]);
   };
 }
