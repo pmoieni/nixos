@@ -24,14 +24,10 @@
         blender
         obs-studio
         zed-editor
-        jetbrains.idea
         anydesk
         vesktop
         v2rayn
-        protonvpn-gui
-        sirikali
         gocryptfs
-        pcsx2
       ])
       ++ ([
         inputs.zen-browser.packages.${pkgs.stdenv.hostPlatform.system}.default
