@@ -21,5 +21,6 @@
       playerctl
       gpu-screen-recorder
       gdu
+      amnezia-vpn
     ];
 }
