@@ -5,6 +5,19 @@
 {
   programs.xwayland.enable = true;
   programs.niri.enable = true;
+  programs.dms-shell = {
+    enable = true;
+    systemd = {
+      enable = true;
+      restartIfChanged = true;
+    };
+    enableSystemMonitoring = true;
+    # enableVPN = true;
+    enableDynamicTheming = true;
+    enableAudioWavelength = true;
+    # enableCalendarEvents = true;
+    enableClipboardPaste = true;
+  };
   # Some programs need SUID wrappers, can be configured further or are
   # started in user sessions.
   programs.mtr.enable = true;
