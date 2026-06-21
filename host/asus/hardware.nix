@@ -69,13 +69,13 @@
   };
 
   fileSystems."/" = {
-    device = "/dev/disk/by-uuid/d2608c4e-7845-43c3-9f33-71c73055eb6e";
+    device = "/dev/disk/by-label/nixos";
     fsType = "btrfs";
     options = [ "subvol=@" ];
   };
 
   fileSystems."/boot" = {
-    device = "/dev/disk/by-uuid/A56B-37DA";
+    device = "/dev/disk/by-label/boot";
     fsType = "vfat";
     options = [
       "fmask=0077"
@@ -84,7 +84,7 @@
   };
 
   swapDevices = [
-    { device = "/dev/disk/by-uuid/2e8b1ac2-f83d-481e-886c-176d88036431"; }
+    { device = "/dev/disk/by-label/linux-swap"; }
   ];
 
   # Enables DHCP on each ethernet and wireless interface. In case of scripted networking

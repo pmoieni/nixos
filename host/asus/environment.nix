@@ -1,7 +1,6 @@
-{ pkgs, inputs, ... }:
+{ pkgs, ... }:
 {
-  environment.systemPackages =
-    (with pkgs; [
+  environment.systemPackages = with pkgs; [
       # battery charge limit script
       # chargeUpto
       brave
@@ -22,8 +21,5 @@
       playerctl
       gpu-screen-recorder
       gdu
-    ])
-    ++ ([
-      inputs.noctalia.packages.${pkgs.stdenv.hostPlatform.system}.default
-    ]);
+    ];
 }

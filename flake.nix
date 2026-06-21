@@ -15,16 +15,6 @@
       inputs.nixpkgs.follows = "nixpkgs";
     };
 
-    quickshell = {
-      url = "github:outfoxxed/quickshell";
-      inputs.nixpkgs.follows = "nixpkgs";
-    };
-
-    noctalia = {
-      url = "github:noctalia-dev/noctalia-shell";
-      inputs.nixpkgs.follows = "nixpkgs";
-    };
-
     zen-browser = {
       url = "github:0xc000022070/zen-browser-flake";
       inputs = {
@@ -56,7 +46,7 @@
         treefmt-nix.lib.evalModule nixpkgs.legacyPackages.${system} {
           projectRootFile = "flake.nix";
           programs = {
-            nixfmt.enable = true; # Format Nix files
+            alejandra.enable = true; # Format Nix files
             prettier.enable = true; # Format JSON, YAML, Markdown
             shellcheck.enable = true; # Lint shell scripts
             shfmt.enable = true; # Format shell scripts

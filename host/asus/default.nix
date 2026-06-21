@@ -7,7 +7,7 @@
     ./qt.nix
     ./security.nix
     ./services.nix
-    ./systemd.nix
+    # ./systemd.nix
     ./time.nix
     ./users.nix
     ./virtualisation.nix
@@ -15,5 +15,5 @@
   ];
 
   system.gui.enable = true;
-  system.stateVersion = "25.05";
+  system.stateVersion = "26.05";
 }
