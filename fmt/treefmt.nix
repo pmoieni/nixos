@@ -6,7 +6,7 @@
     deadnix = {
       enable = true;
     };
-    nixfmt.enable = true;
+    alejandra.enable = true;
     stylua.enable = true;
     prettier.enable = true;
     shfmt.enable = true;
