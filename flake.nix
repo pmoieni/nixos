@@ -5,6 +5,11 @@
 
     home-manager.url = "github:pmoieni/home-manager";
 
+    stylix = {
+      url = "github:nix-community/stylix";
+      inputs.nixpkgs.follows = "nixpkgs";
+    };
+
     treefmt-nix = {
       url = "github:numtide/treefmt-nix";
       inputs.nixpkgs.follows = "nixpkgs";
@@ -26,6 +31,7 @@
       nixos-wsl,
       home-manager,
       treefmt-nix,
+      stylix,
       ...
     }@inputs:
     let
@@ -69,6 +75,7 @@
           modules = [
             ./host
             ./host/asus
+            stylix.nixosModules.stylix
             home-manager.inputs.home-manager.nixosModules.home-manager
             {
               home-manager.extraSpecialArgs = {

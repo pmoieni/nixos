@@ -7,6 +7,7 @@
     ./qt.nix
     ./security.nix
     ./services.nix
+    ./stylix.nix
     # ./systemd.nix
     ./time.nix
     ./users.nix
