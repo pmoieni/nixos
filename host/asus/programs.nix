@@ -35,7 +35,7 @@
     dumpcap.enable = true;
     usbmon.enable = true;
   };
-  programs.adb.enable = true;
+  programs.amnezia-vpn.enable = true;
   programs.localsend.enable = true;
   programs.steam = {
     enable = true;

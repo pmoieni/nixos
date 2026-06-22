@@ -70,8 +70,7 @@
 
   fileSystems."/" = {
     device = "/dev/disk/by-label/nixos";
-    fsType = "btrfs";
-    options = [ "subvol=@" ];
+    fsType = "ext4";
   };
 
   fileSystems."/boot" = {

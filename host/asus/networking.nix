@@ -12,4 +12,6 @@
     enable = true;
     wifi.backend = "iwd";
   };
+  # temporary: until patched
+  networking.firewall.checkReversePath = "loose";
 }

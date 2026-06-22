@@ -8,7 +8,7 @@
       evince
       alacritty
       wev
-      xfce.thunar
+      thunar
       file-roller
       gparted
       ffmpeg-full
@@ -21,6 +21,6 @@
       playerctl
       gpu-screen-recorder
       gdu
-      amnezia-vpn
+      android-tools
     ];
 }
