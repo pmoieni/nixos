@@ -46,6 +46,7 @@
   # tlp and auto-cpufreq shouldn't be enabled simultaneously
   services.tlp = {
     enable = true;
+    pd.enable = true;
     settings = {
       START_CHARGE_THRESH_BAT0 = 0;
       STOP_CHARGE_THRESH_BAT0 = 80;
