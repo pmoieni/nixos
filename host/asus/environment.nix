@@ -15,8 +15,6 @@
       ffmpeg-full
       mpv
       wl-clipboard
-      wl-clip-persist
-      wl-color-picker
       pavucontrol
       xwayland-satellite
       playerctl
