@@ -4,6 +4,7 @@
       # battery charge limit script
       # chargeUpto
       brave
+      chromium
       shotwell
       evince
       alacritty
