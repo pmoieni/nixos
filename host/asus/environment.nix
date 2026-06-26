@@ -23,5 +23,6 @@
       gpu-screen-recorder
       gdu
       android-tools
+      prismlauncher
     ];
 }
