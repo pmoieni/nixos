@@ -15,6 +15,7 @@
       "scanner"
       "wireshark"
       "podman"
+      "libvirtd"
     ];
     packages =
       (with pkgs; [
