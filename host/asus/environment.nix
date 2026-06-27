@@ -21,5 +21,6 @@
       gpu-screen-recorder
       gdu
       android-tools
+      dnsmasq # required by libvirtd
     ];
 }
