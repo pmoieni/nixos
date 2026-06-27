@@ -1,7 +1,7 @@
 {
   networking.hostName = "nixos";
   networking.wireless.iwd = {
-    enable = true;
+    enable = false;
     settings = {
       Settings = {
         AutoConnect = true;
@@ -10,7 +10,7 @@
   };
   networking.networkmanager = {
     enable = true;
-    wifi.backend = "iwd";
+    # wifi.backend = "iwd";
   };
   # temporary: until patched
   networking.firewall.checkReversePath = "loose";
