@@ -47,4 +47,5 @@
     # dedicatedServer.openFirewall = true; # Open ports in the firewall for Source Dedicated Server
   };
   programs.virt-manager.enable = true;
+  programs.gamemode.enable = true;
 }
