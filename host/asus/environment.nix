@@ -4,14 +4,12 @@
       # battery charge limit script
       # chargeUpto
       brave
-      chromium
       shotwell
       evince
       alacritty
       wev
       thunar
       file-roller
-      gparted
       ffmpeg-full
       mpv
       wl-clipboard

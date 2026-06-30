@@ -28,7 +28,6 @@
         anydesk
         vesktop
         v2rayn
-        gocryptfs
       ])
       ++ ([
         inputs.zen-browser.packages.${pkgs.stdenv.hostPlatform.system}.default
