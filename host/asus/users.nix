@@ -25,7 +25,7 @@
         obs-studio
         zed-editor
         anydesk
-        gimp
+        krita
         v2rayn
       ])
       ++ ([
