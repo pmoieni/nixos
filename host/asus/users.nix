@@ -26,6 +26,7 @@
         zed-editor
         anydesk
         krita
+        uget
         v2rayn
       ])
       ++ ([
