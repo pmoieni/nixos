@@ -39,7 +39,13 @@
   services.fwupd.enable = true;
   services.blueman.enable = true;
 
-  services.displayManager.ly.enable = true;
+  # services.displayManager.ly.enable = true;
+  services.displayManager.dms-greeter = {
+    compositor = {
+      name = "niri";
+    };
+    configHome = "/home/pmoieni";
+  };
 
   services.thermald.enable = true;
   services.power-profiles-daemon.enable = false;
