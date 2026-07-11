@@ -27,7 +27,6 @@
         anydesk
         krita
         v2rayn
-        ventoy-full
       ])
       ++ ([
         inputs.zen-browser.packages.${pkgs.stdenv.hostPlatform.system}.default
