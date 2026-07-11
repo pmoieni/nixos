@@ -48,4 +48,5 @@
   };
   programs.virt-manager.enable = true;
   programs.gamemode.enable = true;
+  programs.partition-manager.enable = true;
 }
