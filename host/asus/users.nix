@@ -27,6 +27,7 @@
         anydesk
         krita
         v2rayn
+        woeusb-ng
       ])
       ++ ([
         inputs.zen-browser.packages.${pkgs.stdenv.hostPlatform.system}.default
