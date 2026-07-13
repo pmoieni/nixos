@@ -24,7 +24,6 @@
         blender
         obs-studio
         zed-editor
-        anydesk
         krita
         v2rayn
       ])

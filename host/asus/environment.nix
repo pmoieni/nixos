@@ -7,16 +7,13 @@
       shotwell
       evince
       alacritty
-      wev
       thunar
       file-roller
-      ffmpeg-full
       mpv
       wl-clipboard
       pavucontrol
       xwayland-satellite
       playerctl
-      gpu-screen-recorder
       gdu
       android-tools
       dnsmasq # required by libvirtd
