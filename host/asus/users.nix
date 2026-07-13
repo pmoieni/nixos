@@ -19,12 +19,8 @@
     ];
     packages =
       (with pkgs; [
-        audacity
         telegram-desktop
-        blender
-        obs-studio
         zed-editor
-        krita
         v2rayn
       ])
       ++ ([
