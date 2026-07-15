@@ -21,6 +21,7 @@
       (with pkgs; [
         telegram-desktop
         zed-editor
+        jetbrains.idea
         v2rayn
       ])
       ++ ([
