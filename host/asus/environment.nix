@@ -17,5 +17,6 @@
       gdu
       android-tools
       dnsmasq # required by libvirtd
+      jdk25
     ];
 }
