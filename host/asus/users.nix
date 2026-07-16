@@ -22,6 +22,7 @@
         telegram-desktop
         zed-editor
         jetbrains.idea
+        jdk25
         v2rayn
       ])
       ++ ([
